@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+.asher {
+  text-decoration: none;
+  color: black
+}
+
+.asher:hover {
+  text-decoration: underline !important;
+  color: red!important;
+}
+
+.bread {
+  height: 20%!important;
+  width: 98%!important;
+}
+
+.cake {
+  height: 95%!important;
+  width: 95%!important;
+}
+
+.derech {
+  height: 95%!important;
+  width: 90%!important;
+}
+
+img {
+  height: 54px !important;
+  width: 61px !important;
+}
+
+@media only screen and (max-width: 769px) {
+  .bread {
+    height: 10%!important;
+    width: 95%!important;
+  }
+  .cake {
+    height: 25%!important;
+    width: 95%!important;
+  }
+  .derech {
+    height: 37%!important;
+    width: 95%!important;
+  }
+  .makeStyles-paper-2 {
+    max-width: 85px!important;
+    padding: 0px 20px 15px 0px!important;
+    padding-top: 0px !important;
+    padding-right: 20px !important;
+    padding-bottom: 15px !important;
+    padding-left: 0px !important;
+    font-size: revert!important;
+    height: 95px!important;
+  }
+}
+
+@media only screen and (max-width: 541px) {
+  .bread {
+    height: 4%!important;
+    width: 80%!important;
+  }
+  .derech {
+    height: 17%!important;
+    width: 85%!important;
+  }
+  .makeStyles-paper-2 {
+    padding: 0px 0px 0px 0px!important;
+    font-size: x-large!important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .derech {
+    height: 7%!important;
+    width: 85%!important;
+  }
+  .MuiGrid-container {
+    max-width: 100%!important;
+    display: flex!important;
+    flex-wrap: nowrap!important;
+  }
+  .makeStyles-paper-2 {
+    padding: 0px 0px 6px 0px!important;
+    margin-left: 5px!important;
+    font-size: x-large!important;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .bread {
+    height: 3%!important;
+    width: 75%!important;
+  }
+  .cake {
+    height: 9%!important;
+    width: 100%!important;
+  }
+  .derech {
+    height: 7%!important;
+    width: 94%!important;
+  }
+  .makeStyles-paper-2 {
+    max-width: fit-content;
+    height: 65px!important;
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .bread {
+    height: 0%!important;
+    width: 0%!important;
+  }
+  .cake {
+    height: 9%!important;
+    width: 100%!important;
+  }
+  .derech {
+    height: 7%!important;
+    width: 94%!important;
+  }
+  .makeStyles-paper-2 {
+    max-width: fit-content;
+    padding: 0px 0px 5px 5px!important;
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 281px) {
+  .bread {
+    height: 0%!important;
+    width: 0%!important;
+  }
+  .derech {
+    height: 5%!important;
+    width: 85%!important;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .makeStyles-paper-2 {
+    max-width: 85px!important;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .makeStyles-paper-2 {
+    max-width: fit-content;
+    margin-right: 0px!important;
+    height: 65px!important;
+  }
+}
+
+/* @media only screen and (max-width: 280px) {
+  .makeStyles-paper-2 {
+    max-width: fit-content;
+    margin-right: 0px!important;
+    height: 65px!important;
+  }
+} */
+
+@media (min-width: 0px) and (orientation: landscape) {
+  .MuiToolbar-regular {
+    min-height: 0px;
+    margin-bottom: 2px!important;
+    margin-top: 5px;
+  }
+}
+
+.MuiAppBar-root {
+  width: 95%;
+  right: 38px!important;
+  display: flex;
+  z-index: 1100;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+  height: 12%;
+  position: none!important;
+}
+
+.MuiAppBar-positionFixed {
+  top: 0;
+  position: unset!important;
+  height: 55px;
+}
