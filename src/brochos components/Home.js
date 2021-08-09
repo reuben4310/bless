@@ -114,7 +114,7 @@ function Home() {
                 <Box textAlign="center" component="h1"><Paper className={classes.paper}><Link to="/asher" className="asher"> {asherTitle.heTitleVariants}</Link></Paper></Box>&nbsp;&nbsp;
             </Grid>
             <hr/>
-            {/* <p>BlessDeck App
+            <p className="fromIpad">BlessDeck App
                 Chazal designed berachos very precisely. Each bracha’s length, text, and even number of words and letters, is by design, laced with tremendous depth and symbolism.
                 Some berachos are concise, like birchos hamitzvos (blessings over commandments) and birchos hanehenin (blessings over pleasures). Perhaps Chazal knew that our eagerness to shake the lulav and our salivating tongues wouldn’t allow for anything longer.
                 On the opposite side of the spectrum, some berachos are very lengthy, like the beracha-marathon of Shemoneh Esrei. Clearly in this instance, brevity was not a consideration Chazal factored in when taking close audience with Hashem and asking Him of our needs.
@@ -127,7 +127,7 @@ function Home() {
                 Powered by Sefaria, BlessDeck gives you quick access to Birchas HaMazon, Al Hamichya, Asher Yatzar, and Tefillas HaDerech - all fully customized to your nusach of choice.
                 By eliminating the tedious task of digging though folders and dropdown lists, BlessDeck can help you become a champion to these oft forlorn berachos by saying them with the kavannah they justly deserve.
                 Can I get an Amen?
-</p> */}
+</p>
         </main >
     );
 }
