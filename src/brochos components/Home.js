@@ -114,7 +114,8 @@ function Home() {
                 <Box textAlign="center" component="h1"><Paper className={classes.paper}><Link to="/asher" className="asher"> {asherTitle.heTitleVariants}</Link></Paper></Box>&nbsp;&nbsp;
             </Grid>
             <hr/>
-            <p className="fromIpad">BlessDeck App
+            <p className="fromIpad"><span style={{textDecoration:'underline'}}>BlessDeck App</span>
+            <br/>
                 Chazal designed berachos very precisely. Each bracha’s length, text, and even number of words and letters, is by design, laced with tremendous depth and symbolism.
                 Some berachos are concise, like birchos hamitzvos (blessings over commandments) and birchos hanehenin (blessings over pleasures). Perhaps Chazal knew that our eagerness to shake the lulav and our salivating tongues wouldn’t allow for anything longer.
                 On the opposite side of the spectrum, some berachos are very lengthy, like the beracha-marathon of Shemoneh Esrei. Clearly in this instance, brevity was not a consideration Chazal factored in when taking close audience with Hashem and asking Him of our needs.
