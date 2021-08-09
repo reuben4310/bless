@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { makeStyles, InputLabel, FormControl, Select, Collapse, Button, Paper, Box, Grid } from '@material-ui/core';
+import { makeStyles, FormControl, Paper, Box } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     formControl: {
@@ -37,7 +37,7 @@ export default function AsherYazar() {
         <React.Fragment>
             <FormControl className={classes.formControl}>
                 <Box textAlign="center"><Paper className={classes.paper}>
-                    {asherCode.he && (<h2 style= {{direction: "rtl" }}>{asherCode.he[0].replace(/<[^>]+>/g, '')}</h2>)}
+                    {asherCode.he && (<h2 style={{ direction: "rtl" }}>{asherCode.he[0].replace(/<[^>]+>/g, '')}</h2>)}
                 </Paper></Box>
             </FormControl>
         </React.Fragment >

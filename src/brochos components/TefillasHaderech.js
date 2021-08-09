@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function TefillasHaderech({ onChange, display, inputProps, labelText }) {
+export default function TefillasHaderech() {
     const classes = useStyles();
     const [derechCode, setDerechCode] = useState([{}]);
 
