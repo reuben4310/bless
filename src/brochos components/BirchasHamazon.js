@@ -60,7 +60,7 @@ export default function BirchasHamazon() {
 
     return (
         <React.Fragment>
-            <br/>
+            <br />
             <FormControl className={classes.formControl}>
                 <Grid
                     container
@@ -87,13 +87,13 @@ export default function BirchasHamazon() {
                                     <Button
                                         variant="contained"
                                         onClick={
-                                           
+
                                             handlePurimClick} >Hide Purim</Button>
                                 ) : (
                                     <Button
                                         variant="outlined"
 
-                                        
+
                                         style={{ backgroundColor: '#004E4E', color: '#FFFFFF' }}
                                         onClick={
                                             handlePurimClick}>בפורים</Button>)}&nbsp;&nbsp;
@@ -111,14 +111,14 @@ export default function BirchasHamazon() {
                                 )}
                                 <Collapse in={purimCollapsed}>
                                     <br />
-                                    <h4 id="purim">Please remember to close the button when you are done,if you want to use any of the other special days buttons.</h4>
+                                    <h4 id="purim"></h4>
                                     {birchasCode.he && (<h5 style={{ direction: "rtl", color: "#004E4E" }}>{birchasCode.he[25].replace(/<[^>]+>/g, '')}</h5>)}
                                     {birchasCode.he && (<h5 style={{ direction: "rtl", color: "#004E4E" }}>{birchasCode.he[28].replace(/<[^>]+>/g, '')}</h5>)}
                                     {birchasCode.he && (<h5 style={{ direction: "rtl", color: "#004E4E" }}>{birchasCode.he[29].replace(/<[^>]+>/g, '')}</h5>)}
                                 </Collapse>
                                 <br />
                                 <Collapse in={chanukahCollapsed}>
-                                    <h4>Please remember to close the button when you are done,if you want to use any of the other special days buttons.</h4>
+                                    <h4></h4>
                                     {birchasCode.he && (<h5 style={{ direction: "rtl", paddingTop: "15px", color: "#36454f" }}>{birchasCode.he[25].replace(/<[^>]+>/g, '')}</h5>)}
                                     {birchasCode.he && (<h5 style={{ direction: "rtl", color: "#36454f" }}>{birchasCode.he[26].replace(/<[^>]+>/g, '')}</h5>)}
                                     {birchasCode.he && (<h5 style={{ direction: "rtl", color: "#36454f" }}>{birchasCode.he[27].replace(/<[^>]+>/g, '')}</h5>)}
@@ -144,7 +144,7 @@ export default function BirchasHamazon() {
                                         onClick={
                                             handleYalleClick}>בראש חודש ובחול המועד</Button>)}
                                 <Collapse in={yalleCollapsed}>
-                                    <h4>Please remember to close the button when you are done,if you want to use any of the other special days buttons.</h4>
+                                    <h4></h4>
                                     {birchasCode.he && (<h4 style={{ direction: "rtl", color: "rgb(53, 94, 59)" }}>
                                         {birchasCode.he[36].replace(/<[^>]+>/g, '')}
                                         <br /><br />
@@ -175,13 +175,9 @@ export default function BirchasHamazon() {
                         </h3>)}</Paper></Box>
                         <br />
                         <Box textAlign="center"><Paper className={classes.paper}>
-
-
-
                             {birchasCode.he && (<h3 style={{ direction: "rtl" }}>{birchasCode.he[63].replace(/<[^>]+>/g, '')}</h3>)}</Paper></Box>
                         <br />
                         <Box textAlign="center"><Paper className={classes.paper}>{birchasCode.he && (<h5 id="musaf" style={{ direction: "rtl", color: "#00172D" }}>
-
 
                             {musafDayCollapsed ? (
                                 <Button
@@ -197,7 +193,7 @@ export default function BirchasHamazon() {
                                         handleMusafDayClick}>ביום שמתפללים מוסף</Button>)}
                             <br />
                             <Collapse in={musafDayCollapsed}>
-                                <h4>Please remember to close the button when you are done,if you want to use any of the other special days buttons.</h4>
+                                <h4></h4>
                                 <br />
                                 {birchasCode.he[66].replace(/<[^>]+>/g, '')}
                                 <br />

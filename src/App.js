@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
 import './App.css';
+import About from './brochos components/About';
 import AlHamichyah from './brochos components/AlHamichyah';
 import AsherYazar from "./brochos components/AsherYazar";
 import BirchasHamazon from './brochos components/BirchasHamazon';
@@ -25,6 +26,9 @@ function App() {
         </AppBar>
         <div>
           <Switch>
+            <Route path="/about">
+              <About/>
+            </Route>
             <Route path="/asher">
               <AsherYazar />
             </Route>
