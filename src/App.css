@@ -28,8 +28,8 @@
 }
 
 img {
-  height: 68px !important;
-  width: 111px !important;
+  height: 104px !important;
+  width: 149px !important;
 }
 
 @media only screen and (max-width: 769px) {
@@ -185,5 +185,5 @@ img {
 .MuiAppBar-positionFixed {
   top: 0;
   position: unset!important;
-  height: 70px;
+  height: 104px;
 }
