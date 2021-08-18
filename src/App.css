@@ -190,6 +190,6 @@ img {
 
 .MuiGrid-grid-xs-9 {
   flex-grow: 0;
-  max-width: 78%;
+  max-width: 78%!important;
   flex-basis: 75%;
 }
