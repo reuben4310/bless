@@ -28,8 +28,7 @@
 }
 
 img {
-  height: 104px !important;
-  width: 149px !important;
+  height: 295px !important;
 }
 
 @media only screen and (max-width: 769px) {
@@ -87,6 +86,9 @@ img {
     margin-left: 5px!important;
     font-size: x-large!important;
   }
+  .MuiGrid-justify-content-xs-flex-end {
+    justify-content: center!important;
+  }
 }
 
 @media only screen and (max-width: 415px) {
@@ -107,6 +109,18 @@ img {
     height: 65px!important;
     margin-right: 15px;
   }
+  .MuiGrid-justify-content-xs-flex-end {
+    justify-content: none!important;
+  }
+  .MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap!important;
+  }
+  .MuiGrid-item {
+    margin: 65px!important;
+    box-sizing: border-box;
+  }
 }
 
 @media only screen and (max-width: 321px) {
@@ -124,7 +138,7 @@ img {
   }
   .makeStyles-paper-2 {
     max-width: fit-content;
-    padding: 0px 0px 5px 5px!important;
+    padding: 0px 0px 5px -7px!important;
     font-size: large;
   }
 }

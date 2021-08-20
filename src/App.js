@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
+
 import './App.css';
 import About from './brochos components/About';
 import AlHamichyah from './brochos components/AlHamichyah';
@@ -15,19 +16,21 @@ import BlessDeck from './media/BlessDeck.png';
 
 function App() {
 
+
   return (
+
     <div className="App">
 
       <Router>
-        <AppBar>
+        {/* <AppBar>
 
           <Link style={{ textDecoration: 'none', color: 'black' }} to="/"> <img src={BlessDeck} alt=""></img></Link>
 
-        </AppBar>
+        </AppBar> */}
         <div>
           <Switch>
             <Route path="/about">
-              <About/>
+              <About />
             </Route>
             <Route path="/asher">
               <AsherYazar />

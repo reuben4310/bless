@@ -42,6 +42,8 @@ export default function AlHamichyah() {
     }, []);
     return (
         <React.Fragment>
+            <br />
+            <a href="/" style={{ marginRight: "95%" }}><button>Home</button></a>
             <FormControl className={classes.formControl}>
                 <Box textAlign="center"><Paper className={classes.paper}>
                     <Grid

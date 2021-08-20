@@ -1,6 +1,7 @@
 import { Box, Grid, makeStyles, Paper } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
+import BlessDeck from '../media/BlessDeck.png';
 import '../App.css';
 
 const useStyles = makeStyles((theme) => ({
@@ -99,6 +100,8 @@ function Home() {
 
     return (
         <main className="mobile">
+
+            <img src={BlessDeck} alt="logo"></img><br /><br />
             <Grid
                 item
                 xs={9}
@@ -107,11 +110,12 @@ function Home() {
                 alignItems="right"
                 justify="flex-end"
             >
-                <Box textAlign="center" component="h1"><Paper style={{ backgroundColor:"#e61610"}} className={classes.paper}><Link to="/thd" className="asher">{derechTitle.heTitleVariants}</Link></Paper></Box>&nbsp;&nbsp;
-                <Box textAlign="center" component="h1"><Paper style={{ backgroundColor:"#ff8a84"}} className={classes.paper}><Link to="/ahm" className="asher">{michyahTitle.heTitleVariants}</Link></Paper></Box>&nbsp;&nbsp;
-                <Box textAlign="center" component="h1"><Paper style={{ backgroundColor:"#785616"}} className={classes.paper}><Link
+                <Box textAlign="center" component="h1"><Paper style={{ backgroundColor: "#e61610" }} className={classes.paper}><Link to="/thd" className="asher">{derechTitle.heTitleVariants}</Link></Paper></Box>&nbsp;&nbsp;
+                <Box textAlign="center" component="h1"><Paper style={{ backgroundColor: "#ff8a84" }} className={classes.paper}><Link to="/ahm" className="asher">{michyahTitle.heTitleVariants}</Link></Paper></Box>&nbsp;&nbsp;
+                <Box textAlign="center" component="h1"><Paper style={{ backgroundColor: "#785616" }} className={classes.paper}><Link
                     to="/bh" className="asher">{birchasTitle.heTitleVariants}</Link></Paper></Box>&nbsp;&nbsp;
                 <Box textAlign="center" component="h1"><Paper style={{ backgroundColor: "#00a4d3" }} className={classes.paper}><Link to="/asher" className="asher"> {asherTitle.heTitleVariants}</Link></Paper></Box>&nbsp;&nbsp;
+
             </Grid>
             <Link to="/about">About</Link>
             <hr />

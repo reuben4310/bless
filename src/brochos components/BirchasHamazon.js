@@ -61,6 +61,8 @@ export default function BirchasHamazon() {
     return (
         <React.Fragment>
             <br />
+            <a href="/" style={{ marginRight: "95%" }}><button>Home</button></a>
+            <br />
             <FormControl className={classes.formControl}>
                 <Grid
                     container

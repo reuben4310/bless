@@ -35,6 +35,8 @@ export default function AsherYazar() {
     }, []);
     return (
         <React.Fragment>
+            <br />
+            <a href="/" style={{ marginRight: "95%" }}><button>Home</button></a>
             <FormControl className={classes.formControl}>
                 <Box textAlign="center"><Paper className={classes.paper}>
                     {asherCode.he && (<h2 style={{ direction: "rtl" }}>{asherCode.he[0].replace(/<[^>]+>/g, '')}</h2>)}
